@@ -9,6 +9,9 @@ p {font-size: 18px;}
 
 .hw-nav a {color: #4698cb; text-decoration: none;}
 .hw-nav a:hover {color:#f09c0a;}
+.hw-nav button a {color: #fff; text-decoration: none;}
+.hw-nav button a:hover {color: #fff; text-decoration: none;}
+
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Source Sans Pro', Helvetica, sans-serif; font-weight: normal; }
 
@@ -42,6 +45,39 @@ h2 {font-size: 26px; margin: 2px }
 button.em-orange {background: #f09c0a; border: none; color: #ffffff; text-transform: uppercase; text-decoration: none;}
 button.em-orange:hover {background: #D4770F; color: #ffffff;  text-decoration: none;}
 
+.our-experts {margin-top: 140px;}
+.expert-profile-img {
+    background-size: cover;
+    background-position: center top;
+    min-height: 260px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.our-experts .item {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
+    min-height: 220px;
+    margin-bottom: 2rem;
+}
+
+.our-experts .item .contact-info {
+    padding: 1rem;
+    font-size: .875rem;
+}
+.our-experts .item .contact-info {
+    padding: 1rem;
+    font-size: 16px;
+}
+.our-experts .item .contact-info .title {
+    color: #A1A3B7;
+    font-size: 14px;
+}
 
 /*=================================================*/
 
