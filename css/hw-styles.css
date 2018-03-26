@@ -1,0 +1,88 @@
+/* ========================== //Fonts ========================= */
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; margin: 0; padding:0; }
+
+p {font-size: 18px;}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Source Sans Pro', Helvetica, sans-serif; font-weight: normal; }
+
+h1 {font-size: 42px; letter-spacing: -1px; margin: 10px; padding-bottom: 20px;}
+.feature-row h1 { color: #f09C0A}
+.interest-form h1 { color: #f09C0A}
+
+h2 {font-size: 26px; margin: 2px }
+.intro-row h2 { color: #fff; font-size: 42px; letter-spacing: -1px; padding-bottom: 20px;}
+
+.intro-row p { color: #fff}
+
+.footer {background: #3e3e3e; height: 200px; padding: 55px 30px;}
+.footer p { color: #e5e5e5; padding-top: 40px;}
+
+.feature-row {height: 450px; background-color: #fff; background: url('../images/feature-banner.jpg') right no-repeat; padding-top: 120px; margin-top: 99px;}
+.feature-row p{display: block; width: 70%}
+.intro-row {height: 535px; width: 100%; background-color: ; background: url('../images/owl-bg.jpg') left no-repeat #4698cb; padding-top: 120px;}
+.interest-form {height: 400px; background: #fff; text-align: center; padding-top: 80px;}
+
+.hw-nav {height: 100px; background: #ffffff; padding-right: 30px;}
+.hw-nav .navbar-brand {display: block; height: 100px; padding: 0 15px;}
+.hw-nav .navbar-brand img { margin-left: 20px; width: 80%; height: 80%}
+	
+.email-anchor{display: block; padding-top: 20px;}
+.email-form{text-align: left; vertical-align: middle; height: 70px; margin: 40px auto 110px auto; max-width: 630px; }
+.socials ul {list-style-type: none; }
+.socials ul li {width: 42px; display: inline; float: left; margin-right: 20px;}
+
+
+
+/*=================================================*/
+
+@media (min-width: 1025px) {
+
+	
+}
+
+@media (min-width: 1001px) and (max-width: 1100px) {
+.feature-row {background: url('../images/feature-banner.jpg') 350px 0 no-repeat;}	
+}
+
+
+@media (min-width: 769px) and (max-width: 1196px) {
+.feature-row {background: url('../images/feature-banner.jpg') 350px 0 no-repeat;}		
+}
+@media (min-width: 1001px) and (max-width: 1024px) {
+
+}
+@media (min-width: 601px) and (max-width: 768px){
+.hw-nav .navbar-collapse {background: #fff;  text-align: center;}
+.hw-nav {padding-right: 0px;}
+.feature-row {background: url('../images/feature-banner-800.jpg') right no-repeat;}
+.feature-row p{color: #fff; width: 100%}
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+.hw-nav .navbar-brand {display: block; width: 70%;}
+.hw-nav .navbar-collapse {background: #fff;  text-align: center;}
+.hw-nav {padding-right: 0px;}
+.feature-row {background: url('../images/feature-banner-800.jpg') center no-repeat;}
+.feature-row p{color: #fff;  width: 100%}
+.footer {height: 350px;}
+.socials ul {display: block; margin-top:40px; }
+}
+
+
+@media (max-width: 480px) {
+
+.hw-nav .navbar-brand {display: block; width: 80%; height: 100px;}
+.hw-nav .navbar-brand img {margin-left: 0; width: 100%;}
+.hw-nav {padding-right: 0px;}
+.hw-nav .navbar-collapse {background: #fff; text-align: center;}
+.feature-row {background: url('../images/feature-banner-800.jpg') center no-repeat; padding-top: 80px;}
+.feature-row p{color: #fff;  width: 100%;}
+.footer {height: 350px;}
+.socials ul {display: block; margin-top:40px; }
+
+
+}
