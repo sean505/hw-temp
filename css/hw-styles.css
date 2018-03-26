@@ -7,6 +7,9 @@ body {font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; margin: 0; p
 
 p {font-size: 18px;}
 
+.hw-nav a {color: #4698cb; text-decoration: none;}
+.hw-nav a:hover {color:#f09c0a;}
+
 h1, h2, h3, h4, h5, h6 {font-family: 'Source Sans Pro', Helvetica, sans-serif; font-weight: normal; }
 
 h1 {font-size: 42px; letter-spacing: -1px; margin: 10px; padding-bottom: 20px;}
@@ -24,6 +27,7 @@ h2 {font-size: 26px; margin: 2px }
 .feature-row {height: 450px; background-color: #fff; background: url('../images/feature-banner.jpg') right no-repeat; padding-top: 120px; margin-top: 99px;}
 .feature-row p{display: block; width: 70%}
 .intro-row {height: 535px; width: 100%; background-color: ; background: url('../images/owl-bg.jpg') left no-repeat #4698cb; padding-top: 120px;}
+.intro-row p{width: 80%}
 .interest-form {height: 400px; background: #fff; text-align: center; padding-top: 80px;}
 
 .hw-nav {height: 100px; background: #ffffff; padding-right: 30px;}
@@ -32,9 +36,11 @@ h2 {font-size: 26px; margin: 2px }
 	
 .email-anchor{display: block; padding-top: 20px;}
 .email-form{text-align: left; vertical-align: middle; height: 70px; margin: 40px auto 110px auto; max-width: 630px; }
-.socials ul {list-style-type: none; position: relative;}
-.socials ul li {width: 42px; display: inline; float: left; margin-right: 20px;}
+.socials ul {list-style-type: none; position: relative; text-align: right;}
+.socials ul li {width: 42px; display: inline; margin-right: 20px;}
 
+button.em-orange {background: #f09c0a; border: none; color: #ffffff; text-transform: uppercase; text-decoration: none;}
+button.em-orange:hover {background: #D4770F; color: #ffffff;  text-decoration: none;}
 
 
 /*=================================================*/
@@ -72,6 +78,13 @@ h2 {font-size: 26px; margin: 2px }
   position: absolute;
   z-index: -1;   
 }
+
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+.footer {height: 350px; text-align: center;}
+.socials ul {display: block; margin-top:40px; text-align: center;}
+
 }
 
 @media (min-width: 481px) and (max-width: 600px){
@@ -81,7 +94,7 @@ h2 {font-size: 26px; margin: 2px }
 .feature-row {background: url('../images/feature-banner-800.jpg') center no-repeat;}
 .feature-row p{color: #fff;  width: 100%}
 .footer {height: 350px; text-align: center;}
-.socials ul {display: block; margin-top:40px; }
+.socials ul {display: block; margin-top:40px; text-align: center;}
 .intro-row {height: 535px; width: 100%; background: #4698cb; opacity:0.9;}
 .intro-row::after {
   content: "";
@@ -107,8 +120,9 @@ h2 {font-size: 26px; margin: 2px }
 .feature-row {background: url('../images/feature-banner-800.jpg') center no-repeat; padding-top: 80px;}
 .feature-row p{color: #fff;  width: 100%;}
 .footer {height: 350px; text-align: center;}
-.socials ul {display: block; margin-top:40px; }
+.socials ul {display: block; margin-top:40px; text-align: center;}
 .email-form{text-align: left;margin: 40px 40px 110px 40px; max-width: 300px; }
+.intro-row p {width: 100%;}
 .intro-row {height: 535px; width: 100%; background: #4698cb; opacity:0.9;}
 .intro-row::after {
   content: "";
