@@ -32,7 +32,7 @@ h2 {font-size: 26px; margin: 2px }
 	
 .email-anchor{display: block; padding-top: 20px;}
 .email-form{text-align: left; vertical-align: middle; height: 70px; margin: 40px auto 110px auto; max-width: 630px; }
-.socials ul {list-style-type: none; }
+.socials ul {list-style-type: none; position: relative;}
 .socials ul li {width: 42px; display: inline; float: left; margin-right: 20px;}
 
 
@@ -60,6 +60,18 @@ h2 {font-size: 26px; margin: 2px }
 .hw-nav {padding-right: 0px;}
 .feature-row {background: url('../images/feature-banner-800.jpg') right no-repeat;}
 .feature-row p{color: #fff; width: 100%}
+.intro-row {height: 535px; width: 100%; background: #4698cb; opacity:0.9;}
+.intro-row::after {
+  content: "";
+  background: url('../images/owl-bg.jpg') ;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
 }
 
 @media (min-width: 481px) and (max-width: 600px){
@@ -68,8 +80,21 @@ h2 {font-size: 26px; margin: 2px }
 .hw-nav {padding-right: 0px;}
 .feature-row {background: url('../images/feature-banner-800.jpg') center no-repeat;}
 .feature-row p{color: #fff;  width: 100%}
-.footer {height: 350px;}
+.footer {height: 350px; text-align: center;}
 .socials ul {display: block; margin-top:40px; }
+.intro-row {height: 535px; width: 100%; background: #4698cb; opacity:0.9;}
+.intro-row::after {
+  content: "";
+  background: url('../images/owl-bg.jpg') ;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 }
 
 
@@ -81,8 +106,22 @@ h2 {font-size: 26px; margin: 2px }
 .hw-nav .navbar-collapse {background: #fff; text-align: center;}
 .feature-row {background: url('../images/feature-banner-800.jpg') center no-repeat; padding-top: 80px;}
 .feature-row p{color: #fff;  width: 100%;}
-.footer {height: 350px;}
+.footer {height: 350px; text-align: center;}
 .socials ul {display: block; margin-top:40px; }
+.email-form{text-align: left;margin: 40px 40px 110px 40px; max-width: 300px; }
+.intro-row {height: 535px; width: 100%; background: #4698cb; opacity:0.9;}
+.intro-row::after {
+  content: "";
+  background: url('../images/owl-bg.jpg') ;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 
 
 }
